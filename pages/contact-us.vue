@@ -49,12 +49,13 @@
                 class="jos flex gap-x-6 rounded-[10px] bg-black px-5 py-[30px] xl:px-8 xxl:px-[70px]"
               >
                 <div class="h-auto w-10">
-                  <img
-                    src="@/assets/img/icons/icon-buttery-white-phone.svg"
+                  <NuxtImg
+                    src="/icons/icon-buttery-white-phone.svg"
                     alt="icon-buttery-white-phone"
                     width="30"
                     height="30"
                     class="h-auto w-10"
+                    loading="lazy"
                   />
                 </div>
                 <div class="flex-1">
@@ -65,12 +66,12 @@
                   <div
                     class="flex flex-col text-lg leading-[1.42] lg:text-[21px]"
                   >
-                    <a
+                    <NuxtLink
                       href="https://wa.link/j9mvz1"
                       target="_BLANK"
                       class="text-colorButteryWhite hover:text-colorLightLime"
-                      >+62 896-5248-3516</a
-                    >
+                      >+62 896-5248-3516
+                    </NuxtLink>
                   </div>
                 </div>
               </li>
@@ -80,8 +81,8 @@
                 class="jos flex gap-x-6 rounded-[10px] bg-black px-5 py-[30px] xl:px-8 xxl:px-[70px]"
               >
                 <div class="h-auto w-10">
-                  <img
-                    src="@/assets/img/icons/icon-buttery-white-mail.svg"
+                  <NuxtImg
+                    src="/icons/icon-buttery-white-mail.svg"
                     alt="icon-buttery-white-mail"
                     width="40"
                     height="40"
@@ -96,11 +97,11 @@
                   <div
                     class="flex flex-col text-lg leading-[1.42] lg:text-[21px]"
                   >
-                    <a
+                    <NuxtLink
                       href="mailto:tukangbikin.web.id@gmail.com"
                       class="text-colorButteryWhite hover:text-colorLightLime"
-                      >tukangbikin.web.id@gmail.com</a
-                    >
+                      >tukangbikin.web.id@gmail.com
+                    </NuxtLink>
                   </div>
                 </div>
               </li>
@@ -110,8 +111,8 @@
                 class="jos flex gap-x-6 rounded-[10px] bg-black px-5 py-[30px] xl:px-8 xxl:px-[70px]"
               >
                 <div class="h-auto w-10">
-                  <img
-                    src="@/assets/img/icons/icon-buttery-white-location-marker.svg"
+                  <NuxtImg
+                    src="/icons/icon-buttery-white-location-marker.svg"
                     alt="icon-buttery-white-location-marker"
                     width="40"
                     height="40"

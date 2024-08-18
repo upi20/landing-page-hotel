@@ -45,10 +45,11 @@
             <div
               class="overflow-hidden rounded-[31px] border-[5px] border-black"
             >
-              <img
-                src="@/assets/img/images/th-1/project-details-hero-img.jpg"
+              <NuxtImg
+                src="/images/th-1/project-details-hero-img.jpg"
                 alt="project-details-hero-img"
                 class="w-full h-auto"
+                loading="lazy"
               />
             </div>
             <!-- Portfolio Hero Image Block -->
@@ -87,12 +88,13 @@
                   <h2 class="mb-6 jos">
                     How we initiate and resolve the project
                     <span>
-                      <img
-                        src="@/assets/img/elemnts/shape-light-lime-5-arms-star.svg"
+                      <NuxtImg
+                        src="/elemnts/shape-light-lime-5-arms-star.svg"
                         alt="shape-light-lime-5-arms-star"
                         width="74"
                         height="70"
                         class="relative inline-block h-auto w-8 after:bg-black md:w-10 lg:w-[57px]"
+                        loading="lazy"
                       />
                     </span>
                   </h2>
@@ -141,12 +143,13 @@
               <div
                 class="mx-auto max-w-[450px] overflow-hidden rounded-[23px] border-[5px] border-black lg:mx-0 lg:max-w-full"
               >
-                <img
-                  src="@/assets/img/images/th-1/portfolio-content-img.jpg"
+                <NuxtImg
+                  src="/images/th-1/portfolio-content-img.jpg"
                   alt="portfolio-content-img"
                   width="456"
                   height="736"
                   class="object-cover w-full h-auto lg:h-full"
+                  loading="lazy"
                 />
               </div>
               <!-- Content Right Block -->

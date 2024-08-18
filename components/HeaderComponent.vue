@@ -8,7 +8,7 @@
       <div class="flex items-center justify-between">
         <div class="flex items-center gap-x-10">
           <!-- Header Logo -->
-          <NuxtLink to="/" class="h-auto w-auto">
+          <NuxtLink to="/home" class="h-auto w-auto">
             <img
               src="@/assets/img/tukangbikin.svg"
               alt="logo-buttery-white"

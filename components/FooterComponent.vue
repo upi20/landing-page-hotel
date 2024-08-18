@@ -13,12 +13,13 @@
                 <h2 class="mb-6">
                   Mari mulai proyek
                   <span>
-                    <img
-                      src="@/assets/img/elemnts/shape-light-lime-5-arms-star.svg"
+                    <NuxtImg
+                      src="/elemnts/shape-light-lime-5-arms-star.svg"
                       alt="shape-light-lime-5-arms-star"
                       width="74"
                       height="70"
                       class="relative inline-block h-auto w-8 after:bg-black md:w-10 lg:w-[57px]"
+                      loading="lazy"
                     />
                   </span>
                   bersama kami
@@ -39,136 +40,141 @@
                         class="block font-syne text-[21px] font-bold leading-[1.42] text-colorLightLime"
                         >Whatsapp / Telpon:</span
                       >
-                      <a
+                      <NuxtLink
                         href="https://wa.link/j9mvz1"
                         target="_BLANK"
                         class="text-[21px] leading-[1.42] text-colorButteryWhite"
-                        >+62 896-5248-3516</a
-                      >
+                        >+62 896-5248-3516
+                      </NuxtLink>
                     </li>
                     <li>
                       <span
                         class="block font-syne text-[21px] font-bold leading-[1.42] text-colorLightLime"
                         >Email:</span
                       >
-                      <a
+                      <NuxtLink
                         href="mailto:tukangbikin.web.id@gmail.com"
                         class="text-[21px] leading-[1.42] text-colorButteryWhite"
-                        >tukangbikin.web.id@gmail.com</a
-                      >
+                        >tukangbikin.web.id@gmail.com
+                      </NuxtLink>
                     </li>
                   </ul>
                   <div class="mt-11 flex w-full gap-4">
-                    <a
+                    <NuxtLink
                       href="https://shopee.co.id"
                       target="_blank"
                       rel="noopener noreferrer"
                       class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-[50%] border border-colorButteryWhite bg-black transition-all duration-300 hover:border-black hover:bg-colorLightLime hover:shadow-[0_1.5px_0_0] hover:shadow-colorButteryWhite"
                     >
-                      <img
-                        src="@/assets/img/icons/shopee-white.svg"
+                      <NuxtImg
+                        src="/icons/shopee-white.svg"
                         alt="icon-logo-buttery-white-shopee"
                         width="19"
                         height="16"
                         class="opacity-100 transition-all duration-300 group-hover/link:opacity-0"
+                        loading="lazy"
                       />
-                      <img
-                        src="@/assets/img/icons/shopee.svg"
+                      <NuxtImg
+                        src="/icons/shopee.svg"
                         alt="icon-logo-black-shopee"
                         width="19"
                         height="16"
                         class="absolute opacity-0 transition-all duration-300 group-hover/link:opacity-100"
+                        loading="lazy"
                       />
-                    </a>
-
-                    <a
+                    </NuxtLink>
+                    <NuxtLink
                       href="https://tokopedia.com"
                       target="_blank"
                       rel="noopener noreferrer"
                       class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-[50%] border border-colorButteryWhite bg-black transition-all duration-300 hover:border-black hover:bg-colorLightLime hover:shadow-[0_1.5px_0_0] hover:shadow-colorButteryWhite"
                     >
-                      <img
-                        src="@/assets/img/icons/tokopedia-white.svg"
+                      <NuxtImg
+                        src="/icons/tokopedia-white.svg"
                         alt="icon-logo-buttery-white-tokopedia"
                         width="19"
                         height="16"
                         class="opacity-100 transition-all duration-300 group-hover/link:opacity-0"
+                        loading="lazy"
                       />
-                      <img
-                        src="@/assets/img/icons/tokopedia.svg"
+                      <NuxtImg
+                        src="/icons/tokopedia.svg"
                         alt="icon-logo-black-tokopedia"
                         width="19"
                         height="16"
                         class="absolute opacity-0 transition-all duration-300 group-hover/link:opacity-100"
+                        loading="lazy"
                       />
-                    </a>
-
-                    <a
+                    </NuxtLink>
+                    <NuxtLink
                       href="https://instagram.com"
                       target="_blank"
                       rel="noopener noreferrer"
                       class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-[50%] border border-colorButteryWhite bg-black transition-all duration-300 hover:border-black hover:bg-colorLightLime hover:shadow-[0_1.5px_0_0] hover:shadow-colorButteryWhite"
                     >
                       <img
-                        src="@/assets/img/icons/instagram-white.svg"
+                        src="/icons/instagram-white.svg"
                         alt="icon-logo-buttery-white-instagram"
                         width="19"
                         height="16"
                         class="opacity-100 transition-all duration-300 group-hover/link:opacity-0"
+                        loading="lazy"
                       />
                       <img
-                        src="@/assets/img/icons/instagram.svg"
+                        src="/icons/instagram.svg"
                         alt="icon-logo-black-instagram"
                         width="19"
                         height="16"
                         class="absolute opacity-0 transition-all duration-300 group-hover/link:opacity-100"
+                        loading="lazy"
                       />
-                    </a>
-
-                    <a
+                    </NuxtLink>
+                    <NuxtLink
                       href="https://tiktok.com"
                       target="_blank"
                       rel="noopener noreferrer"
                       class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-[50%] border border-colorButteryWhite bg-black transition-all duration-300 hover:border-black hover:bg-colorLightLime hover:shadow-[0_1.5px_0_0] hover:shadow-colorButteryWhite"
                     >
-                      <img
-                        src="@/assets/img/icons/tiktok-white.svg"
+                      <NuxtImg
+                        src="/icons/tiktok-white.svg"
                         alt="icon-logo-buttery-white-tiktok"
                         width="19"
                         height="16"
                         class="opacity-100 transition-all duration-300 group-hover/link:opacity-0"
+                        loading="lazy"
                       />
-                      <img
-                        src="@/assets/img/icons/tiktok.svg"
+                      <NuxtImg
+                        src="/icons/tiktok.svg"
                         alt="icon-logo-black-tiktok"
                         width="19"
                         height="16"
                         class="absolute opacity-0 transition-all duration-300 group-hover/link:opacity-100"
+                        loading="lazy"
                       />
-                    </a>
-
-                    <a
+                    </NuxtLink>
+                    <NuxtLink
                       href="https://twitter.com"
                       target="_blank"
                       rel="noopener noreferrer"
                       class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-[50%] border border-colorButteryWhite bg-black transition-all duration-300 hover:border-black hover:bg-colorLightLime hover:shadow-[0_1.5px_0_0] hover:shadow-colorButteryWhite"
                     >
-                      <img
-                        src="@/assets/img/icons/x-white.svg"
+                      <NuxtImg
+                        src="/icons/x-white.svg"
                         alt="icon-logo-buttery-white-x"
                         width="19"
                         height="16"
                         class="opacity-100 transition-all duration-300 group-hover/link:opacity-0"
+                        loading="lazy"
                       />
-                      <img
-                        src="@/assets/img/icons/x.svg"
+                      <NuxtImg
+                        src="/icons/x.svg"
                         alt="icon-logo-black-x"
                         width="19"
                         height="16"
                         class="absolute opacity-0 transition-all duration-300 group-hover/link:opacity-100"
+                        loading="lazy"
                       />
-                    </a>
-
+                    </NuxtLink>
                     <!-- Tambahkan icon sosial media lainnya sesuai kebutuhan -->
                   </div>
                 </div>
@@ -242,14 +248,15 @@
           <div
             class="flex flex-wrap justify-center gap-x-[30px] gap-y-4 lg:justify-between"
           >
-            <a href="/">
-              <img
-                src="@/assets/img/tukangbikin.svg"
+            <NuxtLink href="/">
+              <NuxtImg
+                src="/tukangbikin.svg"
                 alt="logo-buttery-white"
                 width="121"
                 height="24"
+                loading="lazy"
               />
-            </a>
+            </NuxtLink>
 
             <!-- Copyright Text -->
             <div class="text-colorButteryWhite">

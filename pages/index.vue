@@ -21,13 +21,15 @@
                   <h1>
                     <span class="inline-flex items-center gap-5 title-page"
                       >TukangBikin
-                      <img
-                        src="@/assets/img/elemnts/shape-light-lime-5-arms-star.svg"
+                      <NuxtImg
+                        src="/elemnts/shape-light-lime-5-arms-star.svg"
                         alt="shape-light-lime-5-arms-star"
                         width="74"
                         height="70"
                         class="w-12 h-auto md:w-14 lg:w-auto"
-                    /></span>
+                        loading="lazy"
+                      />
+                    </span>
                     <br />Fast Work & Affordable
                   </h1>
                   <p
@@ -47,11 +49,12 @@
                     <span
                       class="absolute right-[5px] inline-flex h-[50px] w-[50px] items-center justify-center rounded-[50%] bg-black"
                     >
-                      <img
-                        src="@/assets/img/icons/icon-buttery-white-phone.svg"
+                      <NuxtImg
+                        src="/icons/icon-buttery-white-phone.svg"
                         alt="icon-buttery-white-phone"
                         width="30"
                         height="30"
+                        loading="lazy"
                       />
                     </span>
                   </NuxtLink>
@@ -59,12 +62,13 @@
                 <div
                   class="mx-auto inline-block max-w-[495px] overflow-hidden rounded-[25px] bg-colorButteryWhite p-[5px] lg:mx-0"
                 >
-                  <img
-                    src="@/assets/img/images/th-1/hero-img-technology.png"
+                  <NuxtImg
+                    src="/images/th-1/hero-img-technology.png"
                     alt="hero-img"
                     width="485"
                     height="540"
                     class="h-full w-full rounded-[20px] object-cover"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -91,12 +95,13 @@
                 Empowering Your Business with
                 <span>
                   TukangBikin
-                  <img
-                    src="@/assets/img/elemnts/shape-light-lime-5-arms-star.svg"
+                  <NuxtImg
+                    src="/elemnts/shape-light-lime-5-arms-star.svg"
                     alt="shape-light-lime-5-arms-star"
                     width="74"
                     height="70"
                     class="relative inline-block h-auto w-8 after:bg-black md:w-10 lg:w-[57px]"
+                    loading="lazy"
                   />
                 </span>
               </h2>
@@ -111,12 +116,13 @@
                   <div
                     class="flex h-full flex-col items-start overflow-hidden rounded-[20px] border-2 border-black bg-colorIvory p-[30px] transition duration-300 group-hover:bg-colorLightLime"
                   >
-                    <img
-                      src="@/assets/img/icons/th-1-service-icon-1.svg"
+                    <NuxtImg
+                      src="/icons/th-1-service-icon-1.svg"
                       alt="th-1-service-icon-1"
                       width="64"
                       height="70"
                       class="h-[70px] w-auto"
+                      loading="lazy"
                     />
                     <h4 class="mb-[15px] mt-[30px]">Original Code</h4>
                     <p class="mb-7">
@@ -134,12 +140,13 @@
                   <div
                     class="flex h-full flex-col items-start overflow-hidden rounded-[20px] border-2 border-black bg-colorIvory p-[30px] transition duration-300 group-hover:bg-colorLightLime"
                   >
-                    <img
-                      src="@/assets/img/icons/th-1-service-icon-2.svg"
+                    <NuxtImg
+                      src="/icons/th-1-service-icon-2.svg"
                       alt="th-1-service-icon-2"
                       width="77"
                       height="70"
                       class="h-[70px] w-auto"
+                      loading="lazy"
                     />
 
                     <h4 class="mb-[15px] mt-[30px]">Affordable</h4>
@@ -158,12 +165,13 @@
                   <div
                     class="flex h-full flex-col items-start overflow-hidden rounded-[20px] border-2 border-black bg-colorIvory p-[30px] transition duration-300 group-hover:bg-colorLightLime"
                   >
-                    <img
-                      src="@/assets/img/icons/th-1-service-icon-3.svg"
+                    <NuxtImg
+                      src="/icons/th-1-service-icon-3.svg"
                       alt="th-1-service-icon-3"
                       width="75"
                       height="70"
                       class="h-[70px] w-auto"
+                      loading="lazy"
                     />
                     <h4 class="mb-[15px] mt-[30px]">Teknologi Terkini</h4>
                     <p class="mb-7">
@@ -181,12 +189,13 @@
                   <div
                     class="flex h-full flex-col items-start overflow-hidden rounded-[20px] border-2 border-black bg-colorIvory p-[30px] transition duration-300 group-hover:bg-colorLightLime"
                   >
-                    <img
-                      src="@/assets/img/icons/th-1-service-icon-4.svg"
+                    <NuxtImg
+                      src="/icons/th-1-service-icon-4.svg"
                       alt="th-1-service-icon-4"
                       width="55"
                       height="70"
                       class="h-[70px] w-auto"
+                      loading="lazy"
                     />
 
                     <h4 class="mb-[15px] mt-[30px]">Inovasi Bulanan</h4>
@@ -228,12 +237,13 @@
                 <h2 class="jos">
                   Kami membuat bisnis Anda melaju pesat
                   <span>
-                    <img
-                      src="@/assets/img/elemnts/shape-light-lime-5-arms-star.svg"
+                    <NuxtImg
+                      src="/elemnts/shape-light-lime-5-arms-star.svg"
                       alt="shape-light-lime-5-arms-star"
                       width="74"
                       height="70"
                       class="relative inline-block h-auto w-8 after:bg-black md:w-10 lg:w-[57px]"
+                      loading="lazy"
                     />
                   </span>
                 </h2>
@@ -254,12 +264,13 @@
               <div
                 class="jos relative flex items-center justify-center overflow-hidden rounded-[25px] border-[5px] border-black"
               >
-                <img
-                  src="@/assets/img/images/th-1/about-img.jpg"
+                <NuxtImg
+                  src="/images/th-1/about-img.jpg"
                   alt="about-img"
                   width="846"
                   height="476"
                   class="object-cover w-full h-full"
+                  loading="lazy"
                 />
               </div>
               <!-- About Left Block - Video -->
@@ -342,12 +353,13 @@
               <h2 class="jos">
                 <span>
                   Teknologi Terkini
-                  <img
-                    src="@/assets/img/elemnts/shape-light-lime-5-arms-star.svg"
+                  <NuxtImg
+                    src="/elemnts/shape-light-lime-5-arms-star.svg"
                     alt="shape-light-lime-5-arms-star"
                     width="74"
                     height="70"
                     class="relative inline-block h-auto w-8 after:bg-black md:w-10 lg:w-[57px]"
+                    loading="lazy"
                   />
                 </span>
                 untuk Hasil Terbaik
@@ -390,9 +402,10 @@
                     01/ Project Idea
                   </button>
                   <div class="accordion-icon">
-                    <img
-                      src="@/assets/img/icons/icon-black-arrow-less-down.svg"
+                    <NuxtImg
+                      src="/icons/icon-black-arrow-less-down.svg"
                       alt="icon-black-arrow-less-down"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -421,9 +434,10 @@
                     02/ Brainstorming
                   </button>
                   <div class="accordion-icon">
-                    <img
-                      src="@/assets/img/icons/icon-black-arrow-less-down.svg"
+                    <NuxtImg
+                      src="/icons/icon-black-arrow-less-down.svg"
                       alt="icon-black-arrow-less-down"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -452,9 +466,10 @@
                     03/ Testing
                   </button>
                   <div class="accordion-icon">
-                    <img
-                      src="@/assets/img/icons/icon-black-arrow-less-down.svg"
+                    <NuxtImg
+                      src="/icons/icon-black-arrow-less-down.svg"
                       alt="icon-black-arrow-less-down"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -483,9 +498,10 @@
                     04/ Launch
                   </button>
                   <div class="accordion-icon">
-                    <img
-                      src="@/assets/img/icons/icon-black-arrow-less-down.svg"
+                    <NuxtImg
+                      src="/icons/icon-black-arrow-less-down.svg"
                       alt="icon-black-arrow-less-down"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -530,12 +546,13 @@
               Kepuasan Klien Selalu Menjadi
               <span>
                 Prioritas Kami
-                <img
-                  src="@/assets/img/elemnts/shape-light-lime-5-arms-star.svg"
+                <NuxtImg
+                  src="/elemnts/shape-light-lime-5-arms-star.svg"
                   alt="shape-light-lime-5-arms-star"
                   width="74"
                   height="70"
                   class="relative inline-block h-auto w-8 after:bg-black md:w-10 lg:w-[57px]"
+                  loading="lazy"
                 />
               </span>
             </h2>
@@ -550,35 +567,39 @@
                 class="flex h-full flex-col rounded-[20px] border-2 border-black px-[30px] py-6 transition-all duration-300 hover:shadow-[5px_5px_0_0] hover:shadow-black"
               >
                 <div class="flex mb-8 gap-x-2">
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
+                    alt="icon-black-star"
+                    width="37"
+                    height="35"
+                    loading="lazy"
+                  />
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
                   />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
+                    loading="lazy"
                   />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
+                    loading="lazy"
                   />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
-                  />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
-                    alt="icon-black-star"
-                    width="37"
-                    height="35"
+                    loading="lazy"
                   />
                 </div>
                 <h4 class="mb-5">Layanan Profesional dan Tepat Waktu</h4>
@@ -592,12 +613,13 @@
                   <div
                     class="h-[70px] w-[70px] overflow-hidden rounded-[50%] border-2 border-black"
                   >
-                    <img
-                      src="@/assets/img/images/th-1/testimonial-user-img-1.png"
+                    <NuxtImg
+                      src="/images/th-1/testimonial-user-img-1.png"
                       alt="testimonial-user-img-1"
                       width="64"
                       height="64"
                       class="object-cover w-full h-full"
+                      loading="lazy"
                     />
                   </div>
 
@@ -617,35 +639,40 @@
                 class="flex h-full flex-col rounded-[20px] border-2 border-black px-[30px] py-6 transition-all duration-300 hover:shadow-[5px_5px_0_0] hover:shadow-black"
               >
                 <div class="flex mb-8 gap-x-2">
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
+                    loading="lazy"
                   />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
+                    loading="lazy"
                   />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
+                    loading="lazy"
                   />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
+                    loading="lazy"
                   />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
+                    loading="lazy"
                   />
                 </div>
                 <h4 class="mb-5">Teknologi Terkini dan Desain Modern</h4>
@@ -658,13 +685,14 @@
                   <div
                     class="h-[70px] w-[70px] overflow-hidden rounded-[50%] border-2 border-black"
                   >
-                    <img
-                      src="@/assets/img/images/th-1/testimonial-user-img-2.png"
+                    <NuxtImg
+                      src="/images/th-1/testimonial-user-img-2.png"
                       alt="testimonial-user-img-2"
                       width="64"
                       height="64"
                       class="object-cover w-full h-full"
-                    />
+                      loading="lazy"
+                      />
                   </div>
 
                   <div
@@ -683,36 +711,41 @@
                 class="flex h-full flex-col rounded-[20px] border-2 border-black px-[30px] py-6 transition-all duration-300 hover:shadow-[5px_5px_0_0] hover:shadow-black"
               >
                 <div class="flex mb-8 gap-x-2">
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
+                    loading="lazy"
                   />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
-                  />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                    loading="lazy"
+                    />
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
-                  />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                    loading="lazy"
+                    />
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
-                  />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                    loading="lazy"
+                    />
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
-                  />
+                    loading="lazy"
+                    />
                 </div>
                 <h4 class="mb-5">Komunikatif dan Terbuka terhadap Revisi</h4>
                 <p class="mb-[30px]">
@@ -724,12 +757,13 @@
                   <div
                     class="h-[70px] w-[70px] overflow-hidden rounded-[50%] border-2 border-black"
                   >
-                    <img
-                      src="@/assets/img/images/th-1/testimonial-user-img-3.png"
+                    <NuxtImg
+                      src="/images/th-1/testimonial-user-img-3.png"
                       alt="testimonial-user-img-3"
                       width="64"
                       height="64"
                       class="object-cover w-full h-full"
+                      loading="lazy"
                     />
                   </div>
 
@@ -749,36 +783,41 @@
                 class="flex h-full flex-col rounded-[20px] border-2 border-black px-[30px] py-6 transition-all duration-300 hover:shadow-[5px_5px_0_0] hover:shadow-black"
               >
                 <div class="flex mb-8 gap-x-2">
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
+                    loading="lazy"
                   />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
-                  />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                    loading="lazy"
+                    />
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
-                  />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                    loading="lazy"
+                    />
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
-                  />
-                  <img
-                    src="@/assets/img/icons/icon-black-star.svg"
+                    loading="lazy"
+                    />
+                  <NuxtImg
+                    src="/icons/icon-black-star.svg"
                     alt="icon-black-star"
                     width="37"
                     height="35"
-                  />
+                    loading="lazy"
+                    />
                 </div>
                 <h4 class="mb-5">
                   Produk IT Berkualitas dengan Harga Kompetitif
@@ -792,12 +831,13 @@
                   <div
                     class="h-[70px] w-[70px] overflow-hidden rounded-[50%] border-2 border-black"
                   >
-                    <img
-                      src="@/assets/img/images/th-1/testimonial-user-img-4.png"
+                    <NuxtImg
+                      src="/images/th-1/testimonial-user-img-4.png"
                       alt="testimonial-user-img-4"
                       width="64"
                       height="64"
                       class="object-cover w-full h-full"
+                      loading="lazy"
                     />
                   </div>
 

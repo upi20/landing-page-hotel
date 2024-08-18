@@ -80,60 +80,64 @@
             <!-- About Gallery Image List -->
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <!-- About Galley Image Item -->
-              <a
+              <NuxtLink
                 data-fslightbox="gallery"
                 class="group block cursor-pointer overflow-hidden rounded-[25px] border-2 border-black md:col-span-1 lg:col-span-2"
               >
-                <img
-                  src="@/assets/img/images/th-1/about-gallery-img-1.jpg"
+                <NuxtImg
+                  src="/images/th-1/about-gallery-img-1.jpg"
                   alt="about-gallery-img-1"
                   width="846"
                   height="392"
                   class="h-full w-full object-cover transition-all duration-300 group-hover:scale-110"
+                  loading="lazy"
                 />
-              </a>
+              </NuxtLink>
               <!-- About Galley Image Item -->
               <!-- About Galley Image Item -->
-              <a
+              <NuxtLink
                 data-fslightbox="gallery"
                 class="group col-span-1 block cursor-pointer overflow-hidden rounded-[25px] border-2 border-black"
               >
-                <img
-                  src="@/assets/img/images/th-1/about-gallery-img-2.jpg"
+                <NuxtImg
+                  src="/images/th-1/about-gallery-img-2.jpg"
                   alt="about-gallery-img-2"
                   width="408"
                   height="392"
                   class="h-full w-full object-cover transition-all duration-300 group-hover:scale-110"
+                  loading="lazy"
                 />
-              </a>
+              </NuxtLink>
               <!-- About Galley Image Item -->
               <!-- About Galley Image Item -->
-              <a
+              <NuxtLink
                 data-fslightbox="gallery"
                 class="group col-span-1 block cursor-pointer overflow-hidden rounded-[25px] border-2 border-black"
               >
-                <img
-                  src="@/assets/img/images/th-1/about-gallery-img-3.jpg"
+                <NuxtImg
+                  src="/images/th-1/about-gallery-img-3.jpg"
                   alt="about-gallery-img-3"
                   width="408"
                   height="392"
                   class="h-full w-full object-cover transition-all duration-300 group-hover:scale-110"
+                  loading="lazy"
                 />
-              </a>
+              </NuxtLink>
               <!-- About Galley Image Item -->
               <!-- About Galley Image Item -->
-              <a
+              <NuxtLink
                 data-fslightbox="gallery"
                 class="group block cursor-pointer overflow-hidden rounded-[25px] border-2 border-black md:col-span-1 lg:col-span-2"
               >
-                <img
-                  src="@/assets/img/images/th-1/about-gallery-img-4.jpg"
+                <NuxtImg
+                  src="/images/th-1/about-gallery-img-4.jpg"
                   alt="about-gallery-img-4"
                   width="846"
                   height="392"
                   class="h-full w-full object-cover transition-all duration-300 group-hover:scale-110"
+                  loading="lazy"
                 />
-              </a>
+              </NuxtLink>
               <!-- About Galley Image Item -->
             </div>
             <!-- About Gallery Image List -->
