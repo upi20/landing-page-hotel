@@ -11,11 +11,16 @@
   },
   "dependencies": {
     "@nuxt/image": "^1.7.0",
+    "@nuxtjs/robots": "^4.1.0",
+    "@nuxtjs/seo": "^2.0.0-rc.18",
+    "@nuxtjs/sitemap": "^6.0.0-beta.2",
     "axios": "^1.7.4",
     "nuxt": "^3.12.4",
+    "slick-carousel": "^1.8.1",
     "swiper": "^11.1.9",
     "vue": "latest",
     "vue-lazyload": "^3.0.0",
+    "vue-slick-carousel": "^1.0.5",
     "vue-toastification": "^2.0.0-rc.5"
   },
   "devDependencies": {

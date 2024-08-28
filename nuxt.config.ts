@@ -1,6 +1,12 @@
 /** @format */
 
 export default defineNuxtConfig({
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+    }
+  },
   image: {
     // The screen sizes predefined by `@nuxt/image`:
     screens: {
@@ -31,8 +37,21 @@ export default defineNuxtConfig({
     },
   },
 
-  plugins: ["~/plugins/toastification.js"],
+  plugins: [
+    "~/plugins/toastification.js"
+  ],
   compatibilityDate: "2024-08-15",
   build: { transpile: ["vue-toastification"] },
-  modules: ["@nuxt/image"]
+  modules: ["@nuxt/image", "@nuxtjs/seo"],
+  site: {
+    url: 'https://tukangbikin.web.id',
+  },
+  nitro: {
+    prerender: {
+      routes: [
+        '/robots.txt',
+        '/sitemap.xml'
+      ]
+    }
+  }
 });

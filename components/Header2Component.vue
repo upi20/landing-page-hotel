@@ -1,8 +1,6 @@
-<!-- @format -->
-
 <template>
   <header
-    class="section-header site-header is-black fixed top-0 z-30 w-full py-2"
+    :class="['section-header', 'site-header', 'fixed', 'top-0', 'z-30', 'w-full', 'py-2', { 'is-black': !isScrolled }, { 'bg-black': isScrolled }]"
   >
     <div class="container">
       <div class="flex items-center justify-between">
@@ -10,7 +8,7 @@
           <!-- Header Logo -->
           <NuxtLink to="/" class="h-auto w-auto">
             <img
-              src="/umkm-percetakan.png"
+              :src="isScrolled ? '/tukangbikin.svg' : '/tukangbikin.svg'"
               alt="logo-buttery-white"
               width="121"
               height="24"
@@ -78,29 +76,29 @@
             <nav class="menu-block" id="append-menu-header">
               <ul class="site-menu-main flex flex-col lg:flex-row">
                 <li
-                  class="nav-link-item drop-trigger text-colorDark rounded-none border border-transparent lg:text-white"
+                  :class="['nav-link-item', 'drop-trigger', 'text-colorDark', 'rounded-none', 'border', 'border-transparent', { 'lg:text-black': !isScrolled }, { 'lg:text-white': isScrolled }]"
                 >
-                  <NuxtLink to="/">Beranda</NuxtLink>
+                  <NuxtLink to="#beranda">Beranda</NuxtLink>
                 </li>
                 <li
-                  class="nav-link-item drop-trigger text-colorDark rounded-none border border-transparent lg:text-white"
+                  :class="['nav-link-item', 'drop-trigger', 'text-colorDark', 'rounded-none', 'border', 'border-transparent', { 'lg:text-black': !isScrolled }, { 'lg:text-white': isScrolled }]"
                 >
-                  <NuxtLink to="/layanan">Layanan</NuxtLink>
+                  <NuxtLink to="#tipe-kamar">Tipe Kamar</NuxtLink>
                 </li>
                 <li
-                  class="nav-link-item drop-trigger text-colorDark rounded-none border border-transparent lg:text-white"
+                  :class="['nav-link-item', 'drop-trigger', 'text-colorDark', 'rounded-none', 'border', 'border-transparent', { 'lg:text-black': !isScrolled }, { 'lg:text-white': isScrolled }]"
                 >
-                  <NuxtLink to="/portfolio">Portfolio</NuxtLink>
+                  <NuxtLink to="#fasilitas">Fasilitas</NuxtLink>
                 </li>
                 <li
-                  class="nav-link-item drop-trigger text-colorDark rounded-none border border-transparent lg:text-white"
+                  :class="['nav-link-item', 'drop-trigger', 'text-colorDark', 'rounded-none', 'border', 'border-transparent', { 'lg:text-black': !isScrolled }, { 'lg:text-white': isScrolled }]"
                 >
-                  <NuxtLink to="/cara-pemesanan">Cata Pemesanan</NuxtLink>
+                  <NuxtLink to="#tentang-kami">Tentang Kami</NuxtLink>
                 </li>
                 <li
-                  class="nav-link-item drop-trigger text-colorDark rounded-none border border-transparent lg:text-white"
+                  :class="['nav-link-item', 'drop-trigger', 'text-colorDark', 'rounded-none', 'border', 'border-transparent', { 'lg:text-black': !isScrolled }, { 'lg:text-white': isScrolled }]"
                 >
-                  <NuxtLink to="/tentang-kami">Tentang Kami</NuxtLink>
+                  <NuxtLink to="#testimoni">Testimoni</NuxtLink>
                 </li>
               </ul>
             </nav>
@@ -108,7 +106,7 @@
           <NuxtLink
             class="btn-primary relative hidden px-[30px] py-[10px] sm:inline-flex"
             to="/contact-us"
-            >Hubungi Admin</NuxtLink
+            >Reservasi Online</NuxtLink
           >
         </div>
       </div>
@@ -121,16 +119,36 @@ export default {
   data() {
     return {
       menuOpen: false,
+      isScrolled: false, // Track if the page is scrolled
     };
   },
   methods: {
     toggleMenu() {
       this.menuOpen = !this.menuOpen;
     },
+    handleScroll() {
+      // Detect if the scroll position is past a certain point
+      this.isScrolled = window.scrollY > 50;
+    },
+  },
+  mounted() {
+    // Add scroll event listener when the component is mounted
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    // Remove scroll event listener when the component is destroyed
+    window.removeEventListener('scroll', this.handleScroll);
   },
 };
 </script>
 
 <style scoped>
-/* Tambahkan gaya khusus untuk header di sini jika diperlukan */
+.is-black {
+  background-color: transparent !important;
+}
+
+.bg-black {
+  background-color: black !important;
+  transition: background-color 0.3s ease;
+}
 </style>

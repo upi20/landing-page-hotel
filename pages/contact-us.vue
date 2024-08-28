@@ -329,6 +329,18 @@
     <!-- Footer Section End -->
   </div>
 </template>
+<script lang="ts" setup>
+  useHead({
+    title: 'Jual Aplikasi Web Murah dan Berkualitas - Tukangbikin.web.id',
+    meta: [
+      { name: 'description', content: 'Mitra terbaik Anda dalam menciptakan solusi IT berkualitas dengan kode asli dan harga terjangkau. Kami selalu mengikuti tren teknologi terkini dan setiap bulan menghadirkan produk IT baru yang inovatif. Dapatkan solusi web dan mobile apps yang up-to-date dengan kebutuhan bisnis Anda bersama kami.' },
+      { name: 'keywords', content: 'Nuxt, Node JS, Tailwind CSS, Laravel, Aplikasi Web, Aplikasi Mobile, Solusi IT, Tukangbikin.web.id, Tukang Bikin' }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ]
+  })
+</script>
 
 <style scoped>
 @media (min-width: 1400px) {
